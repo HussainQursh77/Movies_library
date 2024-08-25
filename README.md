@@ -1,66 +1,70 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# **Movie Library Application**
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+---
 
-## About Laravel
+## **Overview**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A simple movie library application built using Laravel and MySQL to manage movies, implementing full CRUD operations (Create, Read, Update, Delete) for movie management. The application also allows users to rate movies, as well as edit or delete their ratings. It follows RESTful API standards and incorporates features like pagination, sorting, and filtering. The application uses a service-based architecture to handle business logic, form requests for validating user data, and resources to control output formats.
+---
+## **Features**
+- CRUD Operations: Manage movies by creating, reading, updating, and deleting records.
+- User Ratings: Allow users to rate movies, edit their ratings, or delete them.
+- RESTful API: Follows RESTful API standards for seamless integration.
+- Pagination, Sorting, and Filtering: Efficient handling of data display and search.
+- Service-Based Architecture: Business logic is handled by services, separated from controllers.
+- Form Requests and Validation: Ensures robust validation of user input.
+- Resources for Output Control: Manage the format of API responses.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## **Install the Project**
+- To set up the Movie Library application, follow these steps:
+### **Prerequisites**
+- PHP >= 8.1
+- Composer
+- MySQL
+  
+### ** Installation Steps**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1.Clone the repository.
+2.Navigate to the project directory.
+3.Install the PHP dependencies using Composer.
+4.Copy the .env.example file to .env.
+5.Generate the application key.
+6.Configure the database(.env file).
+7.Run the database migrations.
+8.Seed the database with sample data.
+9.Start the Laravel development server.
+You can perform the previous steps using the following commands in succession:
+  ```
+    https://github.com/HussainQursh77/Movies_library.git
+    cd movie-library
+    composer install
+    cp .env.example .env
+    php artisan key:generate
 
-## Learning Laravel
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=movie-library
+    DB_USERNAME=root
+    DB_PASSWORD=
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    php artisan migrate
+    php artisan db:seed
+    php artisan serve
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+    
 
-## Laravel Sponsors
+  ```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### **API Documentation**
+The application follows RESTful standards. You can use tools like Postman or Insomnia to interact with the API.
+- Postman Documentation:https://documenter.getpostman.com/view/34032686/2sAXjF9avk
+- 
+### **Usage**
+- Use the provided API endpoints to perform CRUD operations on movies.
+- Users can rate movies and manage their ratings through the API.
+- Utilize pagination, sorting, and filtering to manage and display movie data effectively.
+### **Contributing**
+If you wish to contribute to the project, feel free to submit a pull request or open an issue for discussion.
+## **!!**
