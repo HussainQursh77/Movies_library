@@ -69,7 +69,7 @@ A simple movie library application built using Laravel and MySQL to manage movie
 ### **API Documentation**
 The application follows RESTful standards. You can use tools like Postman or Insomnia to interact with the API.
 - Postman Documentation:https://documenter.getpostman.com/view/34032686/2sAXjF9avk
-- 
+
 ### **Usage**
 - Use the provided API endpoints to perform CRUD operations on movies.
 - Users can rate movies and manage their ratings through the API.
