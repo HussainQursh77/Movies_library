@@ -25,37 +25,46 @@ A simple movie library application built using Laravel and MySQL to manage movie
 ### **Installation Steps**
 
 1.Clone the repository.
-2.Navigate to the project directory.
-3.Install the PHP dependencies using Composer.
-4.Copy the .env.example file to .env.
-5.Generate the application key.
-6.Configure the database(.env file).
-7.Run the database migrations.
-8.Seed the database with sample data.
-9.Start the Laravel development server.
-You can perform the previous steps using the following commands in succession:
-  ```
+```
     https://github.com/HussainQursh77/Movies_library.git
+```
+2.Navigate to the project directory.
+```
     cd movie-library
+```
+3.Install the PHP dependencies using Composer.
+```
     composer install
+```
+4.Copy the .env.example file to .env.
+```
     cp .env.example .env
+```
+5.Generate the application key.
+```
     php artisan key:generate
-
+```
+6.Configure the database(.env file).
+```
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=movie-library
     DB_USERNAME=root
     DB_PASSWORD=
-
+```
+7.Run the database migrations.
+```
     php artisan migrate
+```
+8.Seed the database with sample data.
+```
     php artisan db:seed
+```
+9.Start the Laravel development server.
+```
     php artisan serve
-
-
-    
-
-  ```
+```
 
 ### **API Documentation**
 The application follows RESTful standards. You can use tools like Postman or Insomnia to interact with the API.
