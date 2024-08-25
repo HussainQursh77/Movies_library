@@ -11,8 +11,7 @@ Table of Contents
 
 
 ## **Overview**
-
-A simple movie library application built using Laravel and MySQL to manage movies, implementing full CRUD operations (Create, Read, Update, Delete) for movie management. The application also allows users to rate movies, as well as edit or delete their ratings. It follows RESTful API standards and incorporates features like pagination, sorting, and filtering. The application uses a service-based architecture to handle business logic, form requests for validating user data, and resources to control output formats.
+- A simple movie library application built using Laravel and MySQL to manage movies, implementing full CRUD operations (Create, Read, Update, Delete) for movie management. The application also allows users to rate movies, as well as edit or delete their ratings. It follows RESTful API standards and incorporates features like pagination, sorting, and filtering. The application uses a service-based architecture to handle business logic, form requests for validating user data, and resources to control output formats.
 ---
 ## **Features**
 - CRUD Operations: Manage movies by creating, reading, updating, and deleting records.
