@@ -1,6 +1,14 @@
 # **Movie Library Application**
 
 ---
+Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [API Documentation](#api-documentation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+
 
 ## **Overview**
 
@@ -22,7 +30,7 @@ A simple movie library application built using Laravel and MySQL to manage movie
 - Composer
 - MySQL
   
-### **Installation Steps**
+### **Installation**
 
 1.Clone the repository.
 ```
