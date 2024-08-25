@@ -22,7 +22,7 @@ A simple movie library application built using Laravel and MySQL to manage movie
 - Composer
 - MySQL
   
-### ** Installation Steps**
+### **Installation Steps**
 
 1.Clone the repository.
 2.Navigate to the project directory.
