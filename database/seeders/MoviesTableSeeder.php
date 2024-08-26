@@ -43,6 +43,7 @@ class MoviesTableSeeder extends Seeder
                 'release_year' => 1994,
                 'description' => 'The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.'
             ],
+            //
             [
                 'title' => 'Forrest Gump',
                 'director' => 'Robert Zemeckis',
